@@ -12,7 +12,7 @@
   width: 100%;
 }
 .header__logo {
-  font-family: Dosis, Arial, Helvetica, sans-serif;
+  @include fontFamily(Dosis);
   font-size: 3.6rem;
   font-weight: 700;
   color: #fff;

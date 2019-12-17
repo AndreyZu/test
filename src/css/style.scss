@@ -1,7 +1,4 @@
-$content: 114rem;
-$tablet: 1139;
-$mobile: 739;
-$transition-delay: .3s linear;
+@import '_css-includes/variables';
 
 
 
@@ -9,21 +6,21 @@ html {
   font-size: 62.5%;
 }
 body {
-  font-family: Roboto, Arial, Helvetica, sans-serif;
+  @include fontFamily(Roboto);
   font-size: 100%;
   font-weight: 300;
   line-height: 2.4rem;
   margin: 0;
 }
 h1 {
-  font-family: Dosis, Arial, Helvetica, sans-serif;
+  @include fontFamily(Dosis);
   font-size: 5.4rem;
   line-height: 6rem;
   font-weight: 600;
   margin: 0.4rem 0 0.84rem;
 }
 h2 {
-  font-family: Dosis, Arial, Helvetica, sans-serif;
+  @include fontFamily(Dosis);
   font-size: 3.6rem;
   line-height: 4.5rem;
   font-weight: 500;
@@ -83,14 +80,14 @@ p {
 }
 
 
-@import '../../_css-includes/components';
-@import '../../_css-includes/header';
-@import '../../_css-includes/banner';
-@import '../../_css-includes/screenshots';
-@import '../../_css-includes/dontleave';
-@import '../../_css-includes/features';
-@import '../../_css-includes/pricing';
-@import '../../_css-includes/video';
-@import '../../_css-includes/testimonials';
-@import '../../_css-includes/download';
-@import '../../_css-includes/footer';
+@import '_css-includes/components';
+@import '_css-includes/header';
+@import '_css-includes/banner';
+@import '_css-includes/screenshots';
+@import '_css-includes/dontleave';
+@import '_css-includes/features';
+@import '_css-includes/pricing';
+@import '_css-includes/video';
+@import '_css-includes/testimonials';
+@import '_css-includes/download';
+@import '_css-includes/footer';

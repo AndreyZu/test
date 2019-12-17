@@ -81,7 +81,7 @@
   border-radius: 50%;
 }
 .feedback__name {
-  font-family: Dosis, Arial, Helvetica, sans-serif;
+  @include fontFamily(Dosis);
   font-weight: 600;
   font-size: 1.8rem;
   margin: 0;

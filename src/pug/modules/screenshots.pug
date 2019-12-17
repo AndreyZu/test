@@ -1,8 +1,8 @@
 include components
 
-mixin screenshots(count)
+mixin screenshots()
     -var n = 1;
-    while n <= count
+    while n <= 7
         .screenshot
             img(src='img/screen_'+ n++ +'.png')
 
@@ -17,7 +17,7 @@ section.screenshots
         .gallery__button-block
             +roundButton('left')
         .container
-            +screenshots(7)
+            +screenshots()
 
         .gallery__button-block
             +roundButton('right')

@@ -54,7 +54,7 @@
   flex: 0 1 auto;
 }
 .content__header {
-  font-family: Dosis, Arial, Helvetica, sans-serif;
+  @include fontFamily(Dosis);
   font-size: 2.4rem;
   line-height: 3rem;
   font-weight: 500;
